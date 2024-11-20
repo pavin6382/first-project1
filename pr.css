@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(pravin\ \(3\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.pavi{
+    background :rgba(6, 92, 6, 0.15);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    padding: 25PX;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    height: 580px;
+    box-shadow: 100px 50px 20px 20px rgba(10, 0, 0,0.15);
+    
+}
+h1{
+    font-size: 40px;
+    margin-top: 25px;
+    
+}
+.box{
+    margin: 50px 0;
+    position: relative;
+}
+.box input{
+    width: 100%;
+    background: rgba(124, 209, 153, 0.356);
+    border-radius: 50px;
+    border: none;
+    padding: 12px  12px 12px 30px;
+    outline: 3px solid transparent;
+    transition: all;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 100px 510px 220px 220px rgba(34, 19, 19, 0.15);;
+}
+.box input::placeholder{
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+}
+.box input :focus{
+    outline: 3px solid rgba(255,255,255,0.3);
+}
+.box input ::-ms-reveal{
+    filter:invert(100%);
+}
+.checkbox{
+    display:flex;
+    justify-content:space-between;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+.checkbox label{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    color: rgb(235, 236, 236);
+   text-shadow: 2px,2px,5px,rgb(23, 230, 202);
+}
+.checkbox input{
+    accent-color: white;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.checkbox a:hover{
+    text-decoration: underline;
+}
+.log{
+    width: 100%;
+    padding: 12px;
+    border-radius: 45px;
+    background-color: rgba(57, 218, 70, 0.568);
+    font-size: 18px;
+    font-weight: 600;
+    border-color: rgba(74, 177, 99, 0.733);
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    
+
+}
+.log:hover{
+    background: "#0B87EC";
+}
+.reg{
+    position: relative ;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 800;
+   
+}
+.reg a{
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    font-weight: 600;
+    padding: 20px;
+    gap: 20px;
+    
+}
+.reg:hover{
+    text-decoration: underline;
+}
